@@ -1,0 +1,53 @@
+<div class="contenedorEspacioMuestra">
+                <div class="contenedorCentroMuestra">
+
+                <div class="contenedorMuestraColores">
+                    <div id="paletaColores">
+                        <div class="filaUno"></div>
+                        <div class="filaDos"></div>
+                        <div class="filaTres"></div>
+                        <div class="filaCuatro"></div>
+                        <div class="filaCinco"></div>
+                        <div class="filaSeis"></div>
+                        <div class="filaCinco"></div>
+                        <div class="filaUno"></div>
+                        <div class="filaCinco"></div>
+                        <div class="filaSeis"></div>
+                        <div class="filaCinco"></div>
+                        <div class="filaUno"></div>
+                    </div>
+                </div>
+                <div class="contenedorEleccionCatalogo">
+                    <div class="contenedorParametros">
+                        <div class="informacionPintura">
+                            <div class="cantidadPintura">
+                                <h3 class="titulosMedios">Ingrese cantidad de pintura</h3>
+                                <input id="cantidadDePintura" type="number">
+                            </div>
+                            <h3 class="titulosMedios">Seleccione tipo de pintura</h3>
+                            <div class="tipoPintura">
+                                <li ><input type="checkbox">Satinado </li>
+                                <li ><input type="checkbox">Mate </li>
+                                <li ><input type="checkbox">Brillante</li>
+                        
+                            </div>
+                        </div>
+
+                        <div class="contenedorBotones">
+                            <a href="#">Elegir color</a>
+                            <ul id="colorList"></ul>
+                            <select id="colorSelect"></select>
+                        </div>
+
+                        <div class="contenedorInformacionCalculo">
+                            <h3 class="titulosMedios">Ingresar Mt2</h3>
+                            <input id="metros" type="number">
+                            <input class="buttonNews" type="button" value="Calcular">
+                        </div>
+
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>

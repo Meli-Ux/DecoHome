@@ -1,0 +1,260 @@
+
+.contenedorFatherNewsletter{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.mainNewsletter{
+    height:500px;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorNewsletter{
+   
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+   align-items: center;
+ 
+}
+
+.contenedorFormularioNewsletter{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-rows: 400px ;
+}
+.contenedorTituloPrincipal{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  
+
+}
+.tituloPrincipalNewsletter{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    color: #242424;
+    width: 80%; 
+    text-align: center;
+}
+.parrafoNewsletter{
+    font-family: 'Raleway', sans-serif;
+    color: #242424;
+    width: 80%;
+    text-align: justify;
+
+}
+.contenedorFormulario{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#email{
+    margin-top: 05px;
+    padding: 05px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b1b1b135;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-right: 10px;
+}
+#inputSubmit{
+    padding:5px 40px;
+    margin-top: 5px;
+    background-color: #adff2f;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+
+.contenedorFotoNewsletter{
+    background-color: aqua;
+    width: 100%;
+}
+
+@media only screen and (min-width:1201px) {
+
+    .contenedorFatherNewsletter{
+     
+        width: 100%;
+    }
+    .headerNewsletter{
+        height:100px;
+        width: 100%;
+    
+    }
+    .mainNewsletter{
+        height:500px;
+        width: 100%;
+      
+      
+    }
+    .contenedorNewsletter{
+       
+        height: 400px;
+        width: 50%;
+    }
+    
+ 
+  
+    .tituloPrincipalNewsletter{
+        font-size: 30px;
+        width: 80%;
+    }
+    .parrafoNewsletter{
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .contenedorForm{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #email{
+        margin-top: 05px;
+        padding: 05px 30px;
+        border-radius: 5px;
+        border: none;
+        background-color: #b1b1b135;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #inputSubmit{
+        padding:5px 40px;
+        margin-top: 5px;
+        background-color: #adff2f;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+    
+    }
+    .nav-News{
+        margin-left: 120px;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #242424;
+        font-size: 16px;
+    }
+  #iconoNav{
+      margin-right: 50px;
+  }
+    
+}
+
+@media only screen and (min-width:601px) and (max-width:1200px){
+
+
+    .contenedorFatherNewsletter{
+     
+        width: 100%;
+    }
+    .headerNewsletter{
+        height:150px;
+        width: 100%;
+    
+    }
+    .mainNewsletter{
+        height:500px;
+        width: 100%;
+        margin-top: 150px;
+     
+      
+    }
+    .contenedorNewsletter{
+        height: 400px;
+        width: 60%;
+    }
+    
+ 
+    .contenedorForm{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituloPrincipalNewsletter{
+        font-size: 25px;
+        width: 50%;
+    }
+    .nav-News{
+        margin-left: 45px;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #242424;
+    }
+
+    #iconoNav{
+        margin-right: 50px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:600px){
+  
+    .headerNewsletter{
+        height:100px;
+        width: 100%;
+    
+    }
+    .mainNewsletter{
+        height:400px;
+        width: 100%;
+        margin-top: 60px;
+     
+      
+    }
+    .contenedorNewsletter{
+        height: 400px;
+        width: 60%;
+        margin-top: 60px;
+      
+    }
+    
+ 
+  
+    .tituloPrincipalNewsletter{
+        font-size: 25px;
+        width: 50%;
+    }
+    .nav-News{
+        margin-left: 30px;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #242424;
+    }
+
+    #iconoNav{
+        margin-right: 30px;
+    }
+    .contenedorForm{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorFooter{
+        margin-top:80px;
+    }
+    
+}

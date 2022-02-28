@@ -1,0 +1,69 @@
+
+[
+{"status":"disponible",
+"Categoria": "Esmalte Interior",
+"Rendimiento" : "Esmalte Sintético"
+},
+{"status":"disponible",
+"Categoria": "Esmalte Exterior",
+"Rendimiento" : "Alta calidad"
+},
+{"status":"disponible",
+"Categoria": "Accesorios",
+"Rendimiento" : "Alta calidad"
+},
+
+{"status":"disponible",
+"Codigo Color": "#CD5C5C"
+},
+{"status":"disponible",
+"Codigo Color": "#0000FF"
+},
+{"status":"disponible",
+"Codigo Color": "#5F9EA0"
+ },
+ {"status":"disponible",
+"Codigo Color": "#7FFF00"
+},
+{"status":"disponible",
+"Codigo Color": "#D2691E"
+},
+{"status":"disponible",
+"Codigo Color": "#FF7F50"
+ },
+ {"status":"disponible",
+"Codigo Color": "#008B8B"
+ },
+ {"status":"disponible",
+"Codigo Color": "#A9A9A9"
+},
+{"status":"disponible",
+"Codigo Color": "#2F4F4F"
+},
+{"status":"disponible",
+"Codigo Color": "#FF7F50"
+ },
+{"status":"disponible",
+"Codigo Color": "#00CED1"
+ },
+{"status":"disponible",
+"Codigo Color": "#696969"
+},
+{"status":"disponible",
+"Codigo Color": "#B22222"
+},
+{"status":"disponible",
+"Codigo Color": "E6E6FA"
+ },
+{"status":"disponible",
+"Codigo Color": "#F0FFF0"
+ },
+{"status":"disponible",
+ "Codigo Color": "#FFD700"
+},
+{"status":"disponible",
+"Codigo Color": "#228B22"
+}
+
+
+]

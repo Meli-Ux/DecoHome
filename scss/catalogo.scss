@@ -1,0 +1,530 @@
+.oculto1{
+    display: none;
+   
+}
+.resaltadoSpan{
+    background-color: rgba(248, 248, 248, 0.933);
+
+}
+
+.contenedorInfoCat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.contenedorMainCatalogo {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+.contenedorCentroMuestra {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   /* height: 500px;
+    width: 80%;*/
+}
+section {
+    background-color: beige;
+    box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    border-radius: 10px;
+ 
+}
+#button {
+    border-radius: 8px;
+    background-color: none;
+    border: solid;
+    border-color: #505050;
+    color: #242424;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    transition: opacity 0.4s ease-in-out;
+
+}
+
+#button:hover {
+   border-color: #adff2f;
+}
+
+.muestraColor {
+
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+   
+  
+}
+
+.paletaColores {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    height: 240px;
+   
+}
+.paletaParrafo{
+    margin-top: -80px;
+    background-color: #dad6d69d;
+    padding: 30px;
+    border-radius: 10px;
+    
+    font-family: 'Lora', serif;
+  
+}
+
+.imgPaleta {
+    width: 130%;
+    display: none;
+}
+
+
+.metrosCuadrados{
+    margin-top: 15px;
+}
+
+
+.espacioSpan{
+    margin-top: 20px;
+
+}
+.contenedorMuestraInf {
+    background-color: rgb(255, 255, 255);
+ 
+    box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column nowrap;
+  
+   
+}
+footer{
+ 
+    height: 150px;
+    width: 100%;
+}
+@media only screen and (min-width:1201px) {
+    #tituloCat{
+        margin-left: 200px;
+    }
+    .contenedorMainCatalogo {
+        height: 700px;
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .contenedorTituloCatalogo {
+        height: 100px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .contenedorEspacioMuestra {
+        height: 410px;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedorCentroMuestra {
+   
+        height: 500px;
+        width: 80%;
+    }
+
+    .muestraColor {
+        height: 200px;
+        flex: 1 1 auto;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    section {
+       
+        flex: 1 1 auto;
+    
+        height: 430px;
+       
+        width: 100%;
+        margin-left: 70px;
+    }
+
+ 
+    .contenedorMuestraInf {
+        border-radius: 10px;
+        height: 550px;
+        width: 70%;
+        flex:  1 1  auto;
+        padding: 20px;
+    }
+
+    /*---------------------------------- Generador aleatorio----------*/
+    :root {
+        --bg: #505050;
+      
+        font-size: 10px;
+    }
+
+
+    p {
+        color: var(--bg);
+        font-size: 3rem;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    #button { 
+   
+        font-size: 14px;
+        padding:5px 20px;
+    }
+
+    #button:hover {
+       border-color: #adff2f;
+    }
+
+    /* background: rgba(255, 255, 255, 0.8);*/
+    #eleccionColor {
+        background: rgba(185, 185, 185, 0.459);
+        border-radius: 20px;
+        height: 140px;
+        margin-top: 20px;
+        padding: 20px;
+        position: relative;
+        width: 100%;
+    }
+
+    .colorCard {
+        background: var(--bg);
+        border: 30px 0 30px 30px;
+        box-shadow: 0px 0px 40px 20px rgba(24, 24, 24, 0.124);
+        height: 90px;
+        position: absolute;
+        width: 90px;
+        border-radius: 10px;
+    }
+
+    .contentColor {
+        margin-left: 42%;
+    }
+
+    .tituloColor {
+        color: #242424;
+        font-size: 16px;
+    
+    }
+
+    .colorNumber {
+        color: #242424;
+        font-size: 16px;
+    }
+    .infCat{
+        font-size: 16px;
+        color: #242424;
+       
+    }
+    /*---------------------------------------------------------------*/
+    .informacionMuestra {
+        height: 400px;
+        flex: 1 1 auto;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+  
+
+    .tipoPintura {
+        margin-top: 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width:601px) and (max-width:1200px){
+
+
+       .contenedorMainCatalogo {
+        height:850px;
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .contenedorEspacioMuestra {
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+
+    .contenedorCentroMuestra{
+        height:650px;
+       
+    }
+    .contenedorTituloCatalogo {
+        height: 100px;
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;  
+    }
+    #tituloCat{
+        margin-left: 50px;
+    }
+    section {
+     /*   flex: 1 1 auto;
+        height:360px;
+        width: 80%;
+        margin-right: 10px;*/
+        display: none;
+        
+    }
+    .informacionMuestra {
+        height: 230px;
+        flex: 1 1 auto;
+        width: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    :root {
+        --bg: #505050;
+      
+        font-size: 10px;
+    }
+
+
+    p {
+        color: var(--bg);
+        font-size: 1rem;
+        font-weight: normal;
+        margin-left: 10px;
+    }
+
+    #button { 
+   
+        font-size: 12px;
+        padding: 5px 10px;
+        background-color: none;
+    }
+
+    #button:hover {
+       border-color: #adff2f;
+    }
+
+
+    #eleccionColor {
+        background: rgba(185, 185, 185, 0.459);
+        border-radius: 20px;
+        height:150px;
+        margin-top: 20px;
+        padding: 20px;
+        position: relative;
+        width: 90%;
+    }
+    .colorCard {
+        background: var(--bg);
+        border: 30px 0 30px 30px;
+        box-shadow: 0px 0px 40px 20px rgba(24, 24, 24, 0.302);
+        height: 120px;
+        position: absolute;
+        width: 120px;
+        border-radius: 10px;
+    }
+
+    .contentColor {
+        margin-left: 50%;
+      
+    }
+
+    .tituloColor {
+        color: #242424;
+        font-size: 16px;
+        margin-left: 10px;
+
+    }
+
+    .colorNumber {
+        color: #242424;
+        font-size: 14px;
+    }
+    .infCat{
+        font-size: 14px;
+        color: #242424;
+       
+    }
+ 
+    .contenedorMuestraInf {
+        border-radius: 10px;
+        height:700px;
+        width: 80%;
+        flex:  1 1  auto;
+        padding: 20px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:600px) {
+.contenedorFather{
+
+    height: 800px;
+}
+
+    .contenedorMainCatalogo {
+        height:750px;      
+        margin-top:120px;
+    }
+
+    .contenedorTituloCatalogo {
+        height: 100px;
+        width:80%;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;  
+      
+    }
+    .contenedorEspacioMuestra {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+     
+
+    }
+
+    section {
+       display: none;
+        
+    }
+    .informacionMuestra {
+        height: 230px;
+        flex: 1 1 auto;
+        width: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenedorMuestraInf {
+        border-radius: 10px;
+        height:700px;
+        width: 80%;
+        flex:  1 1  auto;
+        padding: 20px;
+    }
+    :root {
+        --bg: #505050;
+      
+        font-size: 10px;
+    }
+
+
+    p {
+        color: var(--bg);
+        font-size: 1rem;
+        font-weight: normal;
+        margin-left: 10px;
+    }
+
+    button {
+        background: var(--bg);
+        border-radius: 50px;
+        border: none;
+        color: white; 
+         margin-left:5px;
+
+
+        cursor: pointer;
+        font-size: 14px;
+        outline: none;
+        padding: 1em 1rem;
+        text-align: center;
+        transition: opacity 0.4s ease-in-out;
+      
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+    #eleccionColor {
+        background: rgba(185, 185, 185, 0.459);
+        border-radius: 20px;
+        height:150px;
+        margin-top: 20px;
+        padding: 20px;
+        position: relative;
+        width: 100%;
+    }
+    .colorCard {
+        background: var(--bg);
+        border: 30px 0 30px 30px;
+        box-shadow: 0px 0px 40px 20px rgba(24, 24, 24, 0.302);
+        height: 90px;
+        position: absolute;
+        width: 90px;
+        border-radius: 10px;
+    }
+
+    .contentColor {
+        margin-left: 55%;
+      
+    }
+
+    .tituloColor {
+        color: #242424;
+        font-size: 14px;
+        margin-left: 10px;
+
+    }
+
+    .colorNumber {
+        color: var(--bg);
+        font-size: 14px;
+    }
+    .infCat{
+        font-size: 12px;
+        color: #242424;
+       
+    }
+ 
+
+}

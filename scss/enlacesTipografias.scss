@@ -1,0 +1,435 @@
+//font-family: 'Lora', serif;
+//font-family: 'Raleway', sans-serif;
+
+
+.nav-News:hover{
+color: #EBFF7C;
+}
+
+#confirmar{
+    background-color: #adff2f;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.principalTitulo {
+   font-family: 'Lora', serif;
+    color: #242424;
+    font-size: 40px;
+ 
+}
+
+.parrafoTitulo {
+    font-size: 16px;
+   font-family: 'Raleway', sans-serif;
+    color: #242424;
+}
+
+.tituloSecundario {
+    font-family: 'Lora', serif;
+    color: #242424;
+    font-size: 30px;
+}
+
+.tituloCat {
+    width: 60%;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-style: bold;
+}
+
+.paletaParrafo {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #242424;
+
+}
+
+.btnSecundario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#colorElegido {
+    border-radius: 5px;
+    border: 0.5px;
+    height: 20px;
+}
+
+#areas {
+    border-radius: 5px;
+    border: 0.5px;
+    height: 20px;
+}
+
+#valorDesdeLS {
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+/*--------------------------------titulos--------------------------*/
+.parrafoEsmaltes {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(36, 36, 36);
+
+}
+
+.textDestacado {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.parrafoCat {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(36, 36, 36);
+    text-align: center;
+}
+
+.parrafoDestacado {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #242424;
+
+    text-align: justify;
+
+}
+
+/*-------------------------------------imagenes-------------------------------------*/
+
+
+.imgPinturaDestacadas {
+    width: 120px;
+}
+
+/*-------------------------------------------BOTONES--------------------------*/
+.BtnCat {
+    background-color: paleturquoise;
+    padding: 10px 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btnInfoDestacados {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btnInf {
+    background-color: paleturquoise;
+    padding: 10px 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+/*--------------------------------------OFERTAS*/
+
+
+.ofertaEcologica {
+    width: 90%;
+    margin-left: 100px;
+
+}
+
+.tituloOferta {
+    margin-top: 70px;
+    width: 50%;
+    margin-left: 100px;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.tituloInfoDeco {
+    text-align: center;
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+.parrafpEcologico {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 60%;
+    margin-left: 100px;
+}
+
+.parrafoDeco {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+    text-align: center;
+    color: #242424;
+}
+
+.parrafoDecoGuia {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.click {
+    text-decoration: none;
+}
+
+.logoNav img {
+    width: 10%;
+    margin-left: 50px;
+}
+.tituloEncabezado {
+
+    font-family: 'Lora', serif;
+}
+.CatTitulo {
+    font-family: 'Lora', serif;
+}
+.tituloTercero{
+    font-family: 'Lora', serif;
+  
+}
+.tituloColor {
+
+    font-family: 'Lora', serif;
+
+}
+.colorNumber {
+    font-family: 'Raleway', sans-serif;
+}
+.infCat{
+    font-family: 'Raleway', sans-serif;
+   
+}
+/*------------------------------ Catalogo--------------------------------*/
+
+@media only screen and (min-width:1201px) {
+.tituloEncabezado {
+    font-size: 16px;
+}
+.CatTitulo {
+
+    color: #444444;
+    font-size: 40px;
+}
+
+   }
+
+
+
+.logoF img {
+    width: 10%;
+}
+
+.parrafoFooter {
+    font-size: 14px;
+ 
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px;
+}
+
+.bi-facebook {
+    color: #242424;
+}
+
+.bi-instagram {
+    color: #242424;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bi-pinterest {
+    color: #242424;
+}
+.btnDestacados{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-style: solid;
+    border-color: #EBFF7C;
+    font-size: 14px;
+ 
+    color: #242424;
+    text-decoration: none;
+}
+.btnDestacados:hover{
+    background-color: #EBFF7C;
+    color:#242424; ;
+}
+
+
+@media only screen and (min-width:601px) and (max-width:1200px){
+
+    /*------------------header---------------*/
+    .principalTitulo {
+       
+        font-size: 25px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .parrafoTitulo {
+        font-size: 12px;
+      
+        width: 70%;
+        text-align: center;
+
+    }
+    
+    .tituloEncabezado {
+     
+        font-size: 14px;
+    }
+    .CatTitulo {
+      
+        color: #242424;
+        font-size:30px;
+    }
+    .tituloTercero{
+       
+        font-size: 16px;
+        font-weight: bold;
+        color: #242424;
+        
+    }
+    .tituloColor{
+
+        font-size: 16px;
+        font-weight: bold;
+        color: #242424;
+        margin-top:10px;
+    }
+    .tituloCat {
+        width: 60%;
+        font-size: 18px;
+        text-align: center;
+        font-style: bold;
+    }
+
+    .textDestacado {
+    
+        font-size: 14px;
+        width: 100%;
+
+    }
+
+
+}
+
+@media only screen and (max-width:600px) {
+
+
+    /*------------------header---------------*/
+    .principalTitulo {
+       
+        font-size: 25px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .parrafoTitulo {
+        font-size: 12px;
+     
+        width: 70%;
+        text-align: center;
+
+    }
+    
+    .tituloEncabezado {
+        
+        font-size: 14px;
+    }
+    .CatTitulo {
+     
+        color: #242424;
+        font-size:30px;
+    }
+    .tituloTercero{
+     
+        font-size: 14px;
+    }
+    .tituloCat {
+        width: 60%;
+        font-size: 18px;
+        text-align: center;
+        font-style: bold;
+    }
+
+    .textDestacado {
+     
+        font-size: 14px;
+        width: 100%;
+
+    }
+
+
+
+    .parrafoDestacado {
+
+        font-size: 12px;
+
+    }
+
+    .ofertaEcologica {
+        width: 100%;
+        margin-left: 10px;
+
+        margin-top: 60px;
+
+    }
+
+    .tituloOferta {
+        margin-top: 30px;
+        width: 50%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: bolder;
+
+    }
+    .parrafpEcologico{
+        font: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .tituloInfoDeco {
+        text-align: center;
+        color: #242424;
+        font-size: 16px;
+    }
+    .parrafoDeco {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    
+        text-align: center;
+        color: #242424;
+      
+    }
+
+
+    
+    
+
+}

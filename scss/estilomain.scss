@@ -1,0 +1,1246 @@
+#iconoNav{
+    margin-right: 50px;
+}
+
+
+.oculto{
+display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedorFather {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.contenedorHeader {
+    display: flex;
+    flex-flow: column nowrap;
+ 
+}
+
+.contenedorNav {
+    height: 150px;
+    width: 100%;
+}
+
+.contenedorTituloHeader {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.tituloPrincipalHeader {
+   
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+/*-------------------------------------main-----------------------------------*/
+.contenedorMain{
+    display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+}
+/*--------------------------Categorias---------------------------------------*/
+
+
+
+
+
+#categoriaEsmaltesInterior {
+    background: url(../imagenes/mueblePortada.jpg);
+ 
+}
+
+
+#categoriaPinturas {
+  
+    background: url(../imagenes/imgExterior.jpg);
+ 
+}
+
+#categoriaDecoracion {
+    background: url(../imagenes/aerosoles.jpg);
+
+}
+
+#categoriaIluminacion {
+    background: url(../imagenes/accesorios.jpg);
+}
+
+/*-----------------------------------------Destacados---------------------*/
+
+
+.contenedorDestacados {
+    display: flex;
+    flex-flow: column nowrap;
+   
+}
+.contenedorTitutloDestacados{
+    height: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.tituloDestacados{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedorFooter{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content:center;
+  
+}
+.logoFooter{
+  
+    text-align: center;
+}
+.contenedorDeInteres{
+  
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  
+}
+ 
+    .oferta{
+        background: url(../imagenes/pexels-alena-koval-886521.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: 140%;
+     
+    }
+
+    .infoDeco{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+   
+ 
+
+  
+  .personalizacionDeco{
+   background-color: #EBFF7C;
+   box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+     
+   
+      .icono{
+          background: url(../imagenes/personalizacion.png);
+          background-position: center;
+          background-repeat: no-repeat;
+        
+      }
+  }
+  .personalizacionDeco:hover{
+    border: 2px;
+    border-style: solid;
+    color: greenyellow;
+}
+
+  .decoGuia:hover{
+    border: 2px;
+    border-style: solid;
+    color: greenyellow;
+}
+  .decoGuia{  
+    background-color: #FFAEFC;
+    box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  
+    
+    .icono{
+        background: url(../imagenes/guia.png);
+        background-position: center;
+        background-repeat: no-repeat;
+     
+    }
+}
+.tendenciaDeco:hover{
+    border: 2px;
+    border-style: solid;
+    color: greenyellow;
+}
+.tendenciaDeco{
+    background-color: #DEECFD;
+    box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  
+  
+    .icono{
+        background: url(../imagenes/tendencias.png);
+        background-position: center;
+        background-repeat: no-repeat;
+     
+    }
+}
+.preguntasFrecuentes:hover{
+    border: 2px;
+    border-style: solid;
+    color: greenyellow;
+}
+.preguntasFrecuentes{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+   
+    .icono{
+        background: url(../imagenes/preguntas.png);
+        background-position: center;
+        background-repeat: no-repeat;
+       
+        text-align: center;
+    }
+
+/*-------------------Newsletter------------------------ */
+
+
+
+/*-------------------escritorio------------------------*/
+
+@media only screen and (min-width:1201px) {
+
+    .contenedorHeader {
+        height: 250px;
+     
+     
+    }
+    .contenedorMain {
+       display: flex;
+       flex-flow: column nowrap;
+       justify-content: center;
+       align-items: center;
+       height: 2100px;
+
+    }
+
+    .contenedorCategorias {
+
+        height: 350px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        margin-top: 40px;
+        
+    width:80%;
+
+
+        #categoriaEsmaltesInterior {
+          
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 350px;
+            width: 100%;
+            border-radius: 20px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+      .contenedorCatInformacion{
+          background-color: rgba(255, 255, 255, 0.842);
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          border-radius: 8px;
+          height: 200px;
+          width: 90%;
+      }
+
+        #categoriaPinturas {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+         
+            background-position: center;
+            background-size: 110%;
+            background-repeat: no-repeat;
+            height: 350px;
+            border-radius: 20px;
+        }
+
+        #categoriaDecoracion {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+          
+            background-position: center;
+            background-size: 110%;
+            background-repeat: no-repeat;
+            height: 350px;
+            border-radius: 20px;
+        }
+
+        #categoriaIluminacion {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+     
+            background-position: center;
+            background-size: 110%;
+            background-repeat: no-repeat;
+            height: 350px;
+            border-radius: 20px;
+        }
+    }
+  
+    .contenedorDestacados {
+        height: 950px;
+        margin-top: 60px;
+        width: 80%;
+    }
+
+    .contenedorDestacadoPrincipal {
+        display: grid;
+        height: 700px;
+        margin-left: 170px;
+        margin-right: 170px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+        margin-top: 30px;
+    }
+   
+    .contenedorEsmalteSintetico {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 380px;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;  
+    }
+   .contenedorImagenDestacados{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../imagenes/Albamate.png);
+     
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 8px;
+        height: 180px;
+        width: 65%;
+        margin-top: 10px;
+    }
+    .contenedorImagenDestacados2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../imagenes/Albamate.png);
+      
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 8px;
+        height: 180px;
+        width: 65%;
+        margin-top: 10px;
+      
+      
+    }
+    .contenedorImagenDestacados3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../imagenes/Albamate.png);
+ 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 8px;
+        height: 180px;
+        width: 65%;
+        margin-top: 10px;
+    }
+
+
+    .contenedorInfoDestacados{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 90%;
+         padding: 10px;
+        margin-top: 20px;
+    }
+   
+    .contenedorDestacadoUno {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 380px;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .contenedorPinturaEconomica {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 380px;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorDestacadoDos {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 380px;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorPinturCalidad {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 380px;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .contenedorDestacadoTres {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 380px;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorInfoDeco{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 10px;
+      }
+
+    .contenedorDeInteres{
+      
+        height: 700px;
+        width: 100%;
+        margin-top: 50px;
+        .contenedorDecoTips{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+         gap: 50px;
+         width: 80%;
+        height: 500px;
+        }
+}
+
+  
+.personalizacionDeco{
+  
+      width: 80%;
+      height: 200px;
+      border-radius: 20px;
+      margin-left: 40px;
+   
+      .icono{
+       
+          background-size: 50%;
+          height: 120px;
+          width: 80%;
+      }
+  }
+  .personalizacionDeco:hover{
+    border: 2px;
+    border-style: solid;
+    color: greenyellow;
+}
+
+  .decoGuia:hover{
+    border: 2px;
+    border-style: solid;
+    color: greenyellow;
+}
+  .decoGuia{  
+
+    width: 80%;
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 20px;
+    
+    .icono{
+      
+        background-size: 50%;
+        height: 120px;
+        width: 80%;
+    }
+}
+.tendenciaDeco:hover{
+    border: 2px;
+    border-style: solid;
+    color: greenyellow;
+}
+.tendenciaDeco{
+
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 40px;
+  
+    .icono{
+    
+        background-size: 50%;
+        height: 120px;
+        width: 80%;
+    }
+}
+.preguntasFrecuentes:hover{
+    border: 2px;
+    border-style: solid;
+    color: greenyellow;
+}
+.preguntasFrecuentes{
+    background-color: rgba(243, 243, 243, 0.822);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height:200px;
+    margin-right: 40px;
+    border-radius: 20px;
+   
+    .icono{
+    
+        background-size: 50%;
+        height: 120px;
+        width: 80%;
+        text-align: center;
+    }
+}
+}
+/*----------------------------para el dOM------------------------*/
+
+.resaltadoAmarillo{
+    background-color: aqua;
+
+
+}
+
+@media only screen and (min-width:601px) and (max-width:1200px){
+
+    .contenedorHeader {
+        height: 200px;
+
+    
+    }
+
+    .contenedorMain {
+        height: 3300px;
+
+     }
+ 
+     .contenedorCategorias {
+         height: 850px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows:  1fr 1fr;
+         justify-items: center;
+         align-items: center;
+         gap: 10px;
+        
+
+
+         #categoriaEsmaltesInterior {
+            background: url(../imagenes/mueblePortada.jpg);
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 350px;
+            width: 80%;
+            border-radius: 20px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+      .contenedorCatInformacion{
+          background-color: rgba(255, 255, 255, 0.842);
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          border-radius: 8px;
+          height: 200px;
+          width: 90%;
+      }
+
+        #categoriaPinturas {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            width: 80%;
+            align-items: center;
+            background: url(../imagenes/imgExterior.jpg);
+            background-position: center;
+            background-size:200%;
+            background-repeat: no-repeat;
+            height: 350px;
+            border-radius: 20px;
+        }
+
+        #categoriaDecoracion {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            background: url(../imagenes/imgExterior.jpg);
+            background-position: center;
+            background-size: 200%;
+            background-repeat: no-repeat;
+            height: 350px;
+            width: 80%;
+            border-radius: 20px;
+            margin-bottom: 90px;
+        }
+
+        #categoriaIluminacion {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            background: url(../imagenes/imgExterior.jpg);
+            background-position: center;
+            background-size: 200%;
+            background-repeat: no-repeat;
+            height: 350px;
+            width: 80%;
+            border-radius: 20px;
+            margin-bottom: 90px;
+        }
+    }
+
+    .contenedorDestacados{
+        display: flex;
+        justify-content: center;
+         align-items: center;
+    }
+
+    .contenedorDestacadoPrincipal {
+        display: grid;
+        height: 1200px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1FR ;
+        gap: 20px;
+        margin-top: 30px;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+
+    .contenedorEsmalteSintetico {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 350px;
+         border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;  
+    }
+   .contenedorImagenDestacados{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../imagenes/Albamate.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 8px;
+        height: 180px;
+        width: 65%;
+        margin-top: 10px;
+    }
+    .contenedorImagenDestacados2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../imagenes/Albamate.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 8px;
+        height: 180px;
+        width: 65%;
+        margin-top: 10px;
+    }
+    .contenedorImagenDestacados3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../imagenes/Albamate.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 8px;
+        height: 180px;
+        width: 65%;
+        margin-top: 10px;
+    }
+
+
+    .contenedorInfoDestacados{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 90%;
+         padding: 10px;
+        margin-top: 20px;
+    }
+   
+    .contenedorDestacadoUno {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 350px;
+      
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .contenedorPinturaEconomica {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 350px;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorDestacadoDos {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 350px;
+       
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorPinturCalidad {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 350px;
+       
+    
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .contenedorDestacadoTres {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0  2px 2px 2px rgba(0, 0, 0, 0.2);
+        height: 350px;
+     
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedorInfoDeco{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 10px;
+      }
+ 
+    .contenedorDeInteres{
+        height: 1000px;
+        margin-top: 50px;
+
+        .contenedorDecoTips{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+         gap: 50px;
+         width: 80%;
+        height: 1000px;
+       
+        }
+}
+  
+.personalizacionDeco{
+ 
+      justify-content: center;
+      width: 80%;
+      height: 200px;
+      border-radius: 20px;
+      margin-left: 40px;
+   
+      .icono{
+      
+          background-size: 50%;
+          height: 120px;
+          width: 80%;
+      }
+  }
+
+
+
+.decoGuia{  
+   
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 40px;
+ 
+    .icono{
+    
+        background-size: 50%;
+        height: 120px;
+        width: 80%;
+    }
+}
+
+
+
+
+.tendenciaDeco{
+  
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 40px;
+  
+    .icono{
+    
+        background-size: 50%;
+        height: 120px;
+        width: 80%;
+    }
+}
+
+.preguntasFrecuentes{
+   
+    width: 80%;
+    height:200px;
+    margin-right: 40px;
+    border-radius: 20px;
+   
+    .icono{
+       
+        background-size: 50%;
+        height: 120px;
+        width: 80%;
+        text-align: center;
+    }
+    
+}
+
+}
+
+
+@media only screen and (max-width:600px){
+
+    .contenedorHeader {
+        height:300px;
+      
+        .contenedorTituloHeader{
+            height: 250px;
+            margin-top: 60px;
+        }
+    }
+
+    .contenedorMain {
+        height:3000px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+     }
+ 
+     .contenedorCategorias {
+   
+         display: grid;
+         grid-template-columns: 1fr 1fr ;
+         height: 600px;
+         width: 90%;
+         justify-items: center;
+         align-items: center;
+         gap: 10px;
+        
+        
+        }
+
+
+
+
+    .contenedorCatInformacion{
+        background-color: rgba(255, 255, 255, 0.842);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        height: 250px;
+        width: 90%;
+    }
+    #categoriaEsmaltesInterior {
+        background: url(../imagenes/imgExterior.jpg);
+        background-position: center;
+        background-size: 150%;
+        background-repeat: no-repeat;
+       height:300px;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #categoriaPinturas {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background: url(../imagenes/imgExterior.jpg);
+        background-position: center;
+        background-size:150%;
+        background-repeat: no-repeat;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    #categoriaDecoracion {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background: url(../imagenes/imgExterior.jpg);
+        background-position: center;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        height: 300px;
+      
+        border-radius: 20px;
+      
+    }
+
+    #categoriaIluminacion {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background: url(../imagenes/imgExterior.jpg);
+        background-position: center;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        height: 300px;
+      
+        border-radius: 20px;
+       
+    }
+
+/*------------------contenedorDestacado--------------------*/
+
+
+
+
+
+.contenedorDestacados{
+ 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.contenedorDestacadoPrincipal {
+    display: grid;
+    height: 800px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1FR ;
+    gap: 20px;
+    margin-top: 30px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+
+.contenedorEsmalteSintetico {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+     border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;  
+}
+.contenedorImagenDestacados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px;
+}
+.contenedorImagenDestacados2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px;
+}
+.contenedorImagenDestacados3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px;
+}
+
+
+.contenedorInfoDestacados{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 150px;
+    padding: 10px;
+    margin-top: 05px;
+   
+}
+
+.contenedorDestacadoUno {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contenedorPinturaEconomica {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+     border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;  
+}
+.contenedorDestacadoDos {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+     border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;  
+}
+.contenedorPinturCalidad {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+     border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;  
+   
+}
+.contenedorDestacadoTres {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+     border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+
+    /*-----------------------------interes-------------------------------*/
+   
+    .contenedorDeInteres{
+        height: 1300px;
+        margin-top: 30px;
+
+        .contenedorDecoTips{
+         display: grid;
+         grid-template-rows: 1fr 1fr;
+         gap: 50px;
+         width: 80%;
+         height: 1200px;
+        }
+    }
+
+    .oferta{
+        background: url(../imagenes/pexels-alena-koval-886521.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: 140%;
+     
+    }
+
+    .contenedorInfoDeco{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 10px;
+        background-color: aqua;
+      
+      }
+        
+  .personalizacionDeco{
+ 
+      width: 80%;
+      height: 200px;
+      border-radius: 20px;
+      margin-left: 30px;
+     
+      .icono{
+     background-size: 50%;
+    height: 120px;
+    width: 80%;
+      }
+  }
+  .decoGuia{  
+   
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 30px;
+    
+    .icono{
+      
+        background-size: 50%;
+        height: 120px;
+        width: 80%;
+    }
+}
+
+.tendenciaDeco{
+  
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+   
+  
+    .icono{
+    
+        background-size: 50%;
+        height: 120px;
+        width: 80%;
+    }
+}
+
+.preguntasFrecuentes{
+   
+    width: 80%;
+    height:200px;
+    margin-left: 30px;
+    border-radius: 20px;
+   
+    .icono{
+       
+        background-size: 50%;
+        height: 120px;
+        width: 80%;
+        text-align: center;
+    }
+    
+}
+ 
+
+
+
+
+
+}

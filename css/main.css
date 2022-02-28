@@ -1,0 +1,1756 @@
+#iconoNav {
+  margin-right: 50px; }
+
+.oculto {
+  display: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contenedorFather {
+  display: flex;
+  flex-flow: column nowrap; }
+
+.contenedorHeader {
+  display: flex;
+  flex-flow: column nowrap; }
+
+.contenedorNav {
+  height: 150px;
+  width: 100%; }
+
+.contenedorTituloHeader {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 200px; }
+
+.tituloPrincipalHeader {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px; }
+
+/*-------------------------------------main-----------------------------------*/
+.contenedorMain {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+/*--------------------------Categorias---------------------------------------*/
+#categoriaEsmaltesInterior {
+  background: url(../imagenes/mueblePortada.jpg); }
+
+#categoriaPinturas {
+  background: url(../imagenes/imgExterior.jpg); }
+
+#categoriaDecoracion {
+  background: url(../imagenes/aerosoles.jpg); }
+
+#categoriaIluminacion {
+  background: url(../imagenes/accesorios.jpg); }
+
+/*-----------------------------------------Destacados---------------------*/
+.contenedorDestacados {
+  display: flex;
+  flex-flow: column nowrap; }
+
+.contenedorTitutloDestacados {
+  height: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center; }
+
+.tituloDestacados {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.contenedorFooter {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center; }
+
+.logoFooter {
+  text-align: center; }
+
+.contenedorDeInteres {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.oferta {
+  background: url(../imagenes/pexels-alena-koval-886521.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 140%; }
+
+.infoDeco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.personalizacionDeco {
+  background-color: #EBFF7C;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center; }
+  .personalizacionDeco .icono {
+    background: url(../imagenes/personalizacion.png);
+    background-position: center;
+    background-repeat: no-repeat; }
+
+.personalizacionDeco:hover {
+  border: 2px;
+  border-style: solid;
+  color: greenyellow; }
+
+.decoGuia:hover {
+  border: 2px;
+  border-style: solid;
+  color: greenyellow; }
+
+.decoGuia {
+  background-color: #FFAEFC;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center; }
+  .decoGuia .icono {
+    background: url(../imagenes/guia.png);
+    background-position: center;
+    background-repeat: no-repeat; }
+
+.tendenciaDeco:hover {
+  border: 2px;
+  border-style: solid;
+  color: greenyellow; }
+
+.tendenciaDeco {
+  background-color: #DEECFD;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center; }
+  .tendenciaDeco .icono {
+    background: url(../imagenes/tendencias.png);
+    background-position: center;
+    background-repeat: no-repeat; }
+
+.preguntasFrecuentes:hover {
+  border: 2px;
+  border-style: solid;
+  color: greenyellow; }
+
+.preguntasFrecuentes {
+  background-color: white;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center; }
+
+.icono {
+  background: url(../imagenes/preguntas.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center; }
+
+/*-------------------Newsletter------------------------ */
+/*-------------------escritorio------------------------*/
+@media only screen and (min-width: 1201px) {
+  .contenedorHeader {
+    height: 250px; }
+  .contenedorMain {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 2100px; }
+  .contenedorCategorias {
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 40px;
+    width: 80%; }
+    .contenedorCategorias #categoriaEsmaltesInterior {
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 100%;
+      border-radius: 20px;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center; }
+    .contenedorCategorias .contenedorCatInformacion {
+      background-color: rgba(255, 255, 255, 0.842);
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      height: 200px;
+      width: 90%; }
+    .contenedorCategorias #categoriaPinturas {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      background-position: center;
+      background-size: 110%;
+      background-repeat: no-repeat;
+      height: 350px;
+      border-radius: 20px; }
+    .contenedorCategorias #categoriaDecoracion {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      background-position: center;
+      background-size: 110%;
+      background-repeat: no-repeat;
+      height: 350px;
+      border-radius: 20px; }
+    .contenedorCategorias #categoriaIluminacion {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      background-position: center;
+      background-size: 110%;
+      background-repeat: no-repeat;
+      height: 350px;
+      border-radius: 20px; }
+  .contenedorDestacados {
+    height: 950px;
+    margin-top: 60px;
+    width: 80%; }
+  .contenedorDestacadoPrincipal {
+    display: grid;
+    height: 700px;
+    margin-left: 170px;
+    margin-right: 170px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px; }
+  .contenedorEsmalteSintetico {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 380px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorImagenDestacados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px; }
+  .contenedorImagenDestacados2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px; }
+  .contenedorImagenDestacados3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px; }
+  .contenedorInfoDestacados {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px; }
+  .contenedorDestacadoUno {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 380px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorPinturaEconomica {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 380px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorDestacadoDos {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 380px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorPinturCalidad {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 380px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorDestacadoTres {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 380px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorInfoDeco {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10px; }
+  .contenedorDeInteres {
+    height: 700px;
+    width: 100%;
+    margin-top: 50px; }
+    .contenedorDeInteres .contenedorDecoTips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      width: 80%;
+      height: 500px; }
+  .personalizacionDeco {
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 40px; }
+    .personalizacionDeco .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%; }
+  .personalizacionDeco:hover {
+    border: 2px;
+    border-style: solid;
+    color: greenyellow; }
+  .decoGuia:hover {
+    border: 2px;
+    border-style: solid;
+    color: greenyellow; }
+  .decoGuia {
+    width: 80%;
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 20px; }
+    .decoGuia .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%; }
+  .tendenciaDeco:hover {
+    border: 2px;
+    border-style: solid;
+    color: greenyellow; }
+  .tendenciaDeco {
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 40px; }
+    .tendenciaDeco .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%; }
+  .preguntasFrecuentes:hover {
+    border: 2px;
+    border-style: solid;
+    color: greenyellow; }
+  .preguntasFrecuentes {
+    background-color: rgba(243, 243, 243, 0.822);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 20px; }
+    .preguntasFrecuentes .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%;
+      text-align: center; } }
+
+/*----------------------------para el dOM------------------------*/
+.resaltadoAmarillo {
+  background-color: aqua; }
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .contenedorHeader {
+    height: 200px; }
+  .contenedorMain {
+    height: 3300px; }
+  .contenedorCategorias {
+    height: 850px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px; }
+    .contenedorCategorias #categoriaEsmaltesInterior {
+      background: url(../imagenes/mueblePortada.jpg);
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 80%;
+      border-radius: 20px;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center; }
+    .contenedorCategorias .contenedorCatInformacion {
+      background-color: rgba(255, 255, 255, 0.842);
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      height: 200px;
+      width: 90%; }
+    .contenedorCategorias #categoriaPinturas {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      width: 80%;
+      align-items: center;
+      background: url(../imagenes/imgExterior.jpg);
+      background-position: center;
+      background-size: 200%;
+      background-repeat: no-repeat;
+      height: 350px;
+      border-radius: 20px; }
+    .contenedorCategorias #categoriaDecoracion {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      background: url(../imagenes/imgExterior.jpg);
+      background-position: center;
+      background-size: 200%;
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 80%;
+      border-radius: 20px;
+      margin-bottom: 90px; }
+    .contenedorCategorias #categoriaIluminacion {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      background: url(../imagenes/imgExterior.jpg);
+      background-position: center;
+      background-size: 200%;
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 80%;
+      border-radius: 20px;
+      margin-bottom: 90px; }
+  .contenedorDestacados {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .contenedorDestacadoPrincipal {
+    display: grid;
+    height: 1200px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1FR;
+    gap: 20px;
+    margin-top: 30px;
+    width: 80%;
+    align-items: center;
+    justify-content: center; }
+  .contenedorEsmalteSintetico {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorImagenDestacados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px; }
+  .contenedorImagenDestacados2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px; }
+  .contenedorImagenDestacados3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px; }
+  .contenedorInfoDestacados {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px; }
+  .contenedorDestacadoUno {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorPinturaEconomica {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorDestacadoDos {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorPinturCalidad {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorDestacadoTres {
+    background-color: white;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorInfoDeco {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10px; }
+  .contenedorDeInteres {
+    height: 1000px;
+    margin-top: 50px; }
+    .contenedorDeInteres .contenedorDecoTips {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 50px;
+      width: 80%;
+      height: 1000px; }
+  .personalizacionDeco {
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 40px; }
+    .personalizacionDeco .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%; }
+  .decoGuia {
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 40px; }
+    .decoGuia .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%; }
+  .tendenciaDeco {
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 40px; }
+    .tendenciaDeco .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%; }
+  .preguntasFrecuentes {
+    width: 80%;
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 20px; }
+    .preguntasFrecuentes .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%;
+      text-align: center; } }
+
+@media only screen and (max-width: 600px) {
+  .contenedorHeader {
+    height: 300px; }
+    .contenedorHeader .contenedorTituloHeader {
+      height: 250px;
+      margin-top: 60px; }
+  .contenedorMain {
+    height: 3000px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorCategorias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+    width: 90%;
+    justify-items: center;
+    align-items: center;
+    gap: 10px; }
+  .contenedorCatInformacion {
+    background-color: rgba(255, 255, 255, 0.842);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 250px;
+    width: 90%; }
+  #categoriaEsmaltesInterior {
+    background: url(../imagenes/imgExterior.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  #categoriaPinturas {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagenes/imgExterior.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px; }
+  #categoriaDecoracion {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagenes/imgExterior.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px; }
+  #categoriaIluminacion {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagenes/imgExterior.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px; }
+  /*------------------contenedorDestacado--------------------*/
+  .contenedorDestacados {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 1000px; }
+  .contenedorDestacadoPrincipal {
+    display: grid;
+    height: 800px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1FR;
+    gap: 20px;
+    margin-top: 30px;
+    width: 90%;
+    align-items: center;
+    justify-content: center; }
+  .contenedorEsmalteSintetico {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorImagenDestacados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px; }
+  .contenedorImagenDestacados2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px; }
+  .contenedorImagenDestacados3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/Albamate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    height: 180px;
+    width: 65%;
+    margin-top: 10px; }
+  .contenedorInfoDestacados {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 150px;
+    padding: 10px;
+    margin-top: 05px; }
+  .contenedorDestacadoUno {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorPinturaEconomica {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorDestacadoDos {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorPinturCalidad {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorDestacadoTres {
+    background-color: rgba(243, 243, 243, 0.822);
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  /*-----------------------------interes-------------------------------*/
+  .contenedorDeInteres {
+    height: 1300px;
+    margin-top: 30px; }
+    .contenedorDeInteres .contenedorDecoTips {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 50px;
+      width: 80%;
+      height: 1200px; }
+  .oferta {
+    background: url(../imagenes/pexels-alena-koval-886521.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%; }
+  .contenedorInfoDeco {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    background-color: aqua; }
+  .personalizacionDeco {
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 30px; }
+    .personalizacionDeco .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%; }
+  .decoGuia {
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 30px; }
+    .decoGuia .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%; }
+  .tendenciaDeco {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px; }
+    .tendenciaDeco .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%; }
+  .preguntasFrecuentes {
+    width: 80%;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 20px; }
+    .preguntasFrecuentes .icono {
+      background-size: 50%;
+      height: 120px;
+      width: 80%;
+      text-align: center; } }
+
+.oculto1 {
+  display: none; }
+
+.resaltadoSpan {
+  background-color: rgba(248, 248, 248, 0.933); }
+
+.contenedorInfoCat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px; }
+
+.contenedorMainCatalogo {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.contenedorCentroMuestra {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 500px;
+    width: 80%;*/ }
+
+section {
+  background-color: beige;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  border-radius: 10px; }
+
+#button {
+  border-radius: 8px;
+  background-color: none;
+  border: solid;
+  border-color: #505050;
+  color: #242424;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  transition: opacity 0.4s ease-in-out; }
+
+#button:hover {
+  border-color: #adff2f; }
+
+.muestraColor {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px; }
+
+.paletaColores {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 80%;
+  height: 240px; }
+
+.paletaParrafo {
+  margin-top: -80px;
+  background-color: #dad6d69d;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: 'Lora', serif; }
+
+.imgPaleta {
+  width: 130%;
+  display: none; }
+
+.metrosCuadrados {
+  margin-top: 15px; }
+
+.espacioSpan {
+  margin-top: 20px; }
+
+.contenedorMuestraInf {
+  background-color: white;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column nowrap; }
+
+footer {
+  height: 150px;
+  width: 100%; }
+
+@media only screen and (min-width: 1201px) {
+  #tituloCat {
+    margin-left: 200px; }
+  .contenedorMainCatalogo {
+    height: 700px;
+    padding: 10px;
+    margin: 30px; }
+  .contenedorTituloCatalogo {
+    height: 100px;
+    width: 100%;
+    margin-top: 30px; }
+  .contenedorEspacioMuestra {
+    height: 410px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center; }
+  .contenedorCentroMuestra {
+    height: 500px;
+    width: 80%; }
+  .muestraColor {
+    height: 200px;
+    flex: 1 1 auto;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; }
+  section {
+    flex: 1 1 auto;
+    height: 430px;
+    width: 100%;
+    margin-left: 70px; }
+  .contenedorMuestraInf {
+    border-radius: 10px;
+    height: 550px;
+    width: 70%;
+    flex: 1 1  auto;
+    padding: 20px; }
+  /*---------------------------------- Generador aleatorio----------*/
+  :root {
+    --bg: #505050;
+    font-size: 10px; }
+  p {
+    color: var(--bg);
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 0; }
+  #button {
+    font-size: 14px;
+    padding: 5px 20px; }
+  #button:hover {
+    border-color: #adff2f; }
+  /* background: rgba(255, 255, 255, 0.8);*/
+  #eleccionColor {
+    background: rgba(185, 185, 185, 0.459);
+    border-radius: 20px;
+    height: 140px;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+    width: 100%; }
+  .colorCard {
+    background: var(--bg);
+    border: 30px 0 30px 30px;
+    box-shadow: 0px 0px 40px 20px rgba(24, 24, 24, 0.124);
+    height: 90px;
+    position: absolute;
+    width: 90px;
+    border-radius: 10px; }
+  .contentColor {
+    margin-left: 42%; }
+  .tituloColor {
+    color: #242424;
+    font-size: 16px; }
+  .colorNumber {
+    color: #242424;
+    font-size: 16px; }
+  .infCat {
+    font-size: 16px;
+    color: #242424; }
+  /*---------------------------------------------------------------*/
+  .informacionMuestra {
+    height: 400px;
+    flex: 1 1 auto;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; }
+  .tipoPintura {
+    margin-top: 20px; } }
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .contenedorMainCatalogo {
+    height: 850px;
+    padding: 10px;
+    margin: 30px; }
+  .contenedorEspacioMuestra {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center; }
+  .contenedorCentroMuestra {
+    height: 650px; }
+  .contenedorTituloCatalogo {
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center; }
+  #tituloCat {
+    margin-left: 50px; }
+  section {
+    /*   flex: 1 1 auto;
+        height:360px;
+        width: 80%;
+        margin-right: 10px;*/
+    display: none; }
+  .informacionMuestra {
+    height: 230px;
+    flex: 1 1 auto;
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; }
+  :root {
+    --bg: #505050;
+    font-size: 10px; }
+  p {
+    color: var(--bg);
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: 10px; }
+  #button {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: none; }
+  #button:hover {
+    border-color: #adff2f; }
+  #eleccionColor {
+    background: rgba(185, 185, 185, 0.459);
+    border-radius: 20px;
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+    width: 90%; }
+  .colorCard {
+    background: var(--bg);
+    border: 30px 0 30px 30px;
+    box-shadow: 0px 0px 40px 20px rgba(24, 24, 24, 0.302);
+    height: 120px;
+    position: absolute;
+    width: 120px;
+    border-radius: 10px; }
+  .contentColor {
+    margin-left: 50%; }
+  .tituloColor {
+    color: #242424;
+    font-size: 16px;
+    margin-left: 10px; }
+  .colorNumber {
+    color: #242424;
+    font-size: 14px; }
+  .infCat {
+    font-size: 14px;
+    color: #242424; }
+  .contenedorMuestraInf {
+    border-radius: 10px;
+    height: 700px;
+    width: 80%;
+    flex: 1 1  auto;
+    padding: 20px; } }
+
+@media only screen and (max-width: 600px) {
+  .contenedorFather {
+    height: 800px; }
+  .contenedorMainCatalogo {
+    height: 750px;
+    margin-top: 120px; }
+  .contenedorTituloCatalogo {
+    height: 100px;
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center; }
+  .contenedorEspacioMuestra {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center; }
+  section {
+    display: none; }
+  .informacionMuestra {
+    height: 230px;
+    flex: 1 1 auto;
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; }
+  .contenedorMuestraInf {
+    border-radius: 10px;
+    height: 700px;
+    width: 80%;
+    flex: 1 1  auto;
+    padding: 20px; }
+  :root {
+    --bg: #505050;
+    font-size: 10px; }
+  p {
+    color: var(--bg);
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: 10px; }
+  button {
+    background: var(--bg);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+    padding: 1em 1rem;
+    text-align: center;
+    transition: opacity 0.4s ease-in-out; }
+  button:hover {
+    opacity: 0.8; }
+  #eleccionColor {
+    background: rgba(185, 185, 185, 0.459);
+    border-radius: 20px;
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+    width: 100%; }
+  .colorCard {
+    background: var(--bg);
+    border: 30px 0 30px 30px;
+    box-shadow: 0px 0px 40px 20px rgba(24, 24, 24, 0.302);
+    height: 90px;
+    position: absolute;
+    width: 90px;
+    border-radius: 10px; }
+  .contentColor {
+    margin-left: 55%; }
+  .tituloColor {
+    color: #242424;
+    font-size: 14px;
+    margin-left: 10px; }
+  .colorNumber {
+    color: var(--bg);
+    font-size: 14px; }
+  .infCat {
+    font-size: 12px;
+    color: #242424; } }
+
+.nav-News:hover {
+  color: #EBFF7C; }
+
+#confirmar {
+  background-color: #adff2f;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif; }
+
+.principalTitulo {
+  font-family: 'Lora', serif;
+  color: #242424;
+  font-size: 40px; }
+
+.parrafoTitulo {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: #242424; }
+
+.tituloSecundario {
+  font-family: 'Lora', serif;
+  color: #242424;
+  font-size: 30px; }
+
+.tituloCat {
+  width: 60%;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-style: bold; }
+
+.paletaParrafo {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: #242424; }
+
+.btnSecundario {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif; }
+
+#colorElegido {
+  border-radius: 5px;
+  border: 0.5px;
+  height: 20px; }
+
+#areas {
+  border-radius: 5px;
+  border: 0.5px;
+  height: 20px; }
+
+#valorDesdeLS {
+  background-color: gainsboro;
+  border-radius: 10px; }
+
+/*--------------------------------titulos--------------------------*/
+.parrafoEsmaltes {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #242424; }
+
+.textDestacado {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center; }
+
+.parrafoCat {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: #242424;
+  text-align: center; }
+
+.parrafoDestacado {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  color: #242424;
+  text-align: justify; }
+
+/*-------------------------------------imagenes-------------------------------------*/
+.imgPinturaDestacadas {
+  width: 120px; }
+
+/*-------------------------------------------BOTONES--------------------------*/
+.BtnCat {
+  background-color: paleturquoise;
+  padding: 10px 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif; }
+
+.btnInfoDestacados {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Raleway', sans-serif; }
+
+.btnInf {
+  background-color: paleturquoise;
+  padding: 10px 70px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'Raleway', sans-serif; }
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+/*--------------------------------------OFERTAS*/
+.ofertaEcologica {
+  width: 90%;
+  margin-left: 100px; }
+
+.tituloOferta {
+  margin-top: 70px;
+  width: 50%;
+  margin-left: 100px;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  font-weight: bolder; }
+
+.tituloInfoDeco {
+  text-align: center;
+  color: black;
+  font-family: 'Lora', serif; }
+
+.parrafpEcologico {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  width: 60%;
+  margin-left: 100px; }
+
+.parrafoDeco {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  text-align: center;
+  color: #242424; }
+
+.parrafoDecoGuia {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center; }
+
+.click {
+  text-decoration: none; }
+
+.logoNav img {
+  width: 10%;
+  margin-left: 50px; }
+
+.tituloEncabezado {
+  font-family: 'Lora', serif; }
+
+.CatTitulo {
+  font-family: 'Lora', serif; }
+
+.tituloTercero {
+  font-family: 'Lora', serif; }
+
+.tituloColor {
+  font-family: 'Lora', serif; }
+
+.colorNumber {
+  font-family: 'Raleway', sans-serif; }
+
+.infCat {
+  font-family: 'Raleway', sans-serif; }
+
+/*------------------------------ Catalogo--------------------------------*/
+@media only screen and (min-width: 1201px) {
+  .tituloEncabezado {
+    font-size: 16px; }
+  .CatTitulo {
+    color: #444444;
+    font-size: 40px; } }
+
+.logoF img {
+  width: 10%; }
+
+.parrafoFooter {
+  font-size: 14px;
+  text-align: center; }
+
+.redes {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10px; }
+
+.bi-facebook {
+  color: #242424; }
+
+.bi-instagram {
+  color: #242424;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.bi-pinterest {
+  color: #242424; }
+
+.btnDestacados {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border-style: solid;
+  border-color: #EBFF7C;
+  font-size: 14px;
+  color: #242424;
+  text-decoration: none; }
+
+.btnDestacados:hover {
+  background-color: #EBFF7C;
+  color: #242424; }
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  /*------------------header---------------*/
+  .principalTitulo {
+    font-size: 25px;
+    width: 70%;
+    text-align: center; }
+  .parrafoTitulo {
+    font-size: 12px;
+    width: 70%;
+    text-align: center; }
+  .tituloEncabezado {
+    font-size: 14px; }
+  .CatTitulo {
+    color: #242424;
+    font-size: 30px; }
+  .tituloTercero {
+    font-size: 16px;
+    font-weight: bold;
+    color: #242424; }
+  .tituloColor {
+    font-size: 16px;
+    font-weight: bold;
+    color: #242424;
+    margin-top: 10px; }
+  .tituloCat {
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    font-style: bold; }
+  .textDestacado {
+    font-size: 14px;
+    width: 100%; } }
+
+@media only screen and (max-width: 600px) {
+  /*------------------header---------------*/
+  .principalTitulo {
+    font-size: 25px;
+    width: 70%;
+    text-align: center; }
+  .parrafoTitulo {
+    font-size: 12px;
+    width: 70%;
+    text-align: center; }
+  .tituloEncabezado {
+    font-size: 14px; }
+  .CatTitulo {
+    color: #242424;
+    font-size: 30px; }
+  .tituloTercero {
+    font-size: 14px; }
+  .tituloCat {
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    font-style: bold; }
+  .textDestacado {
+    font-size: 14px;
+    width: 100%; }
+  .parrafoDestacado {
+    font-size: 12px; }
+  .ofertaEcologica {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 60px; }
+  .tituloOferta {
+    margin-top: 30px;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bolder; }
+  .parrafpEcologico {
+    font: 14px;
+    font-family: 'Montserrat', sans-serif; }
+  .tituloInfoDeco {
+    text-align: center;
+    color: #242424;
+    font-size: 16px; }
+  .parrafoDeco {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #242424; } }
+
+.contenedorFatherNewsletter {
+  display: flex;
+  flex-flow: column nowrap; }
+
+.mainNewsletter {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.contenedorNewsletter {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.contenedorFormularioNewsletter {
+  background-color: white;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px 20px 20px 20px;
+  display: grid;
+  grid-template-rows: 400px; }
+
+.contenedorTituloPrincipal {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+
+.tituloPrincipalNewsletter {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: #242424;
+  width: 80%;
+  text-align: center; }
+
+.parrafoNewsletter {
+  font-family: 'Raleway', sans-serif;
+  color: #242424;
+  width: 80%;
+  text-align: justify; }
+
+.contenedorFormulario {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+#email {
+  margin-top: 05px;
+  padding: 05px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #b1b1b135;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-right: 10px; }
+
+#inputSubmit {
+  padding: 5px 40px;
+  margin-top: 5px;
+  background-color: #adff2f;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; }
+
+.contenedorFotoNewsletter {
+  background-color: aqua;
+  width: 100%; }
+
+@media only screen and (min-width: 1201px) {
+  .contenedorFatherNewsletter {
+    width: 100%; }
+  .headerNewsletter {
+    height: 100px;
+    width: 100%; }
+  .mainNewsletter {
+    height: 500px;
+    width: 100%; }
+  .contenedorNewsletter {
+    height: 400px;
+    width: 50%; }
+  .tituloPrincipalNewsletter {
+    font-size: 30px;
+    width: 80%; }
+  .parrafoNewsletter {
+    font-size: 16px;
+    width: 80%; }
+  .contenedorForm {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center; }
+  #email {
+    margin-top: 05px;
+    padding: 05px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b1b1b135;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-right: 10px; }
+  #inputSubmit {
+    padding: 5px 40px;
+    margin-top: 5px;
+    background-color: #adff2f;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  .nav-News {
+    margin-left: 120px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #242424;
+    font-size: 16px; }
+  #iconoNav {
+    margin-right: 50px; } }
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .contenedorFatherNewsletter {
+    width: 100%; }
+  .headerNewsletter {
+    height: 150px;
+    width: 100%; }
+  .mainNewsletter {
+    height: 500px;
+    width: 100%;
+    margin-top: 150px; }
+  .contenedorNewsletter {
+    height: 400px;
+    width: 60%; }
+  .contenedorForm {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center; }
+  .tituloPrincipalNewsletter {
+    font-size: 25px;
+    width: 50%; }
+  .nav-News {
+    margin-left: 45px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #242424; }
+  #iconoNav {
+    margin-right: 50px; } }
+
+@media only screen and (max-width: 600px) {
+  .headerNewsletter {
+    height: 100px;
+    width: 100%; }
+  .mainNewsletter {
+    height: 400px;
+    width: 100%;
+    margin-top: 60px; }
+  .contenedorNewsletter {
+    height: 400px;
+    width: 60%;
+    margin-top: 60px; }
+  .tituloPrincipalNewsletter {
+    font-size: 25px;
+    width: 50%; }
+  .nav-News {
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #242424; }
+  #iconoNav {
+    margin-right: 30px; }
+  .contenedorForm {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .contenedorFooter {
+    margin-top: 80px; } }
